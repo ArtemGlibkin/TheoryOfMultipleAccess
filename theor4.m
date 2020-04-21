@@ -1,6 +1,4 @@
-
-b = 15;
-lambda = 0.8;
+function [out1, out2] = theor4(lambda, b)
 i = 1;
 for j = 1:b
     st = j-1;
@@ -24,3 +22,5 @@ for i = 0:(b-1)
 end;
 
 d = N/lambda;
+out1 = d;
+out2 = N;
